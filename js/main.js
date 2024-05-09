@@ -15,6 +15,7 @@ if (age < 18) {
     document.getElementById('ticket').innerHTML = molt - discount40.toFixed(2);
 } else {
     console.log ('paga prezzo pieno');
+    document.getElementById('ticket').innerHTML = molt.toFixed(2);
 }
 
 console.log(molt);
